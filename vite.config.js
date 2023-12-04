@@ -5,6 +5,6 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-base: '/API-SIT/',
+base: '/API-SIT-MOTUL/',
 plugins: [vue()]
 })

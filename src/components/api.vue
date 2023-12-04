@@ -118,14 +118,14 @@ onMounted(() => {
 <template>
   
   <!-- Encabezado -->
-<div class="flex flex-col justify-center items-center bg-[#f7f4e8] py-5 w-screen">
+<div class="flex flex-col justify-center items-center bg-[#f7f4e8] py-5">
   <img class="h-[100px] w-[100px]" src="./logo.png" alt="">
   <h1 class="text-xl">SITMOTUL</h1>
   <h2 class="text-center">Estado de la evaluación tutor del {{ info.periodo }} al Martes 28 de Noviembre de 2023</h2>
 </div>
 
 <!-- Cuerpo principal -->
-<div class="flex justify-center items-center h-[644px] md:h-screen w-screen bg-[#f7f4e8] text-xs py-2">
+<div class="flex justify-center items-center h-[644px] md:h-screen bg-[#f7f4e8] text-xs py-2">
   <!-- Tres divs a la izquierda -->
   <div class="flex flex-col">
     <!-- Sistemas Computacionales -->
